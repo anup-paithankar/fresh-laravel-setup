@@ -6,6 +6,10 @@
     <mkdir dir="${dir.tmp}"/>
   </target>
 
+  <target name="compile">
+      <echo message="Compiling source code"/>
+  </target>
+
   <target name="clean">
 	<delete dir="${dir.output}"/>
   </target>
